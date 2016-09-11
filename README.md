@@ -1,2 +1,2 @@
-# cousera-angularjs
-solution repo of SPA with AngularJS in corsera
+# coursera-angularjs
+solution repo of SPA with AngularJS in coursera
