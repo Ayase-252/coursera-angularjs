@@ -11,7 +11,7 @@
         if (parsedList.length === 0) {
           $scope.message = 'Please enter data first.';
           $scope.msgStyle = {
-            'color': 'black',
+            'color': 'red'
           };
           $scope.inputStyle = {
             'border-color': 'red'
@@ -22,16 +22,14 @@
         $scope.inputStyle = {
           'border-color': 'green'
         };
+        $scope.msgStyle = {
+          'color': 'green'
+        };
         if (length <= 3) {
           $scope.message = 'Enjoy!';
-          $scope.msgStyle = {
-            'color': 'green',
-          };
+
         } else {
           $scope.message = 'Too much!';
-          $scope.msgStyle = {
-            'color': 'red',
-          };
         }
       };
     });
